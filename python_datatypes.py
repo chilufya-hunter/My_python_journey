@@ -44,11 +44,11 @@ range(0,19)
 #for every value we assign a key
 d = {'chilu':'bmw','john':'ford','noah':'vitz'}
 print(d)
-
+#to reveal keys
 d.keys()
 
 till=d['john']
 print(till)
-
+#to get a value
 tell = d.get('noah')
 print(tell)
