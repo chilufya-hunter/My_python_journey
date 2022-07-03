@@ -24,6 +24,5 @@ print(nums)
 nums.extend([45,55,44,22])
 print(nums)
 
-min(nums)
-max(nums)
+
 print(max(nums))
