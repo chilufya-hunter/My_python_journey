@@ -1,7 +1,12 @@
 x = int(input("Enter the value of X : "))
-y = int(input("Enter the value of X : "))
-z = int(input("Enter the value of X : "))
-
-
-summa=float(x+y+z)
-print("summa")
+if x>2:
+    print("Enter a larger value of x")
+y = int(input("Enter the value of y : "))
+if y>2:
+    print("Enter a larger value of y")
+z = int(input("Enter the value of z : "))
+if z>2:
+    print("Enter a larger value of x")
+    print("The sum is: ")
+summa =(x+y+z)
+print(summa)
