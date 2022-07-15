@@ -7,9 +7,7 @@ if y<2:
     print("Enter a larger value of y")
     
 z = int(input("Enter the value of z : "))
-if z<5:
-    print("Enter a larger value of z")
-    print("The sum is: ")
+
     
 summa =(x+y+z)
 print(summa)
